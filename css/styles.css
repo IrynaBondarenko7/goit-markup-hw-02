@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*color: #212121;*/
+/* color: #2196F3;*/
+/*color: #757575;*/
+
+/*------header------*/
+.header-logo{
+font-family: 'Raleway', sans-seri;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration:none;
+color: #2196F3;
+}
+.log-studio{
+    color: #000000;   
+}
+.list {
+    list-style: none;
+}
+  .header-item {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+text-decoration:none;
+  }
+  .header-link {
+    text-decoration:none;
+  }
+  .header-link:hover {
+    color: #2196F3;
+  }
+  .contacts-mail, .contacts-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration:none;
+  }
+  .contacts-mail:hover {
+    color: #2196F3;
+  }
+  .contacts-tel:hover {
+    color: #2196F3;
+  }
