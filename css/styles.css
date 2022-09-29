@@ -74,6 +74,7 @@ background-color: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 color: var(--white-color);
+cursor: pointer;
 }
 /*---------Section features-------*/
 .features-name {
@@ -97,7 +98,6 @@ text-transform: uppercase;
 color: var(--title-color);
 }
 .features-text {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -149,6 +149,13 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration:none;
 }
+.address-mail:hover, .address-mail:focus {
+  color: var(--accent-color);
+}
+.address-tel:hover, .address-tel:focus {
+  color: var(--accent-color);
+}
+
 /*-----------PORTFOLIO PAGE--------------*/
 .portfolio {
   position: absolute;
@@ -170,6 +177,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
 background: #F5F4FA;
+cursor: pointer;
 }
 .button-portfolio:hover, .button-portfolio:focus {
   color: var(--white-color);
